@@ -203,9 +203,6 @@
   }
 }
 @layer utilities {
-  .\@container {
-    container-type: inline-size;
-  }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -809,11 +806,6 @@
   .md\:min-w-\[40\%\] {
     @media (width >= 48rem) {
       min-width: 40%;
-    }
-  }
-  .\@max-xl\:hidden {
-    @container (width < 36rem) {
-      display: none;
     }
   }
   .dark\:hidden {
